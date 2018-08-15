@@ -103,7 +103,7 @@ window.onload = function () {
                 allLis[k].className = '';
             }
             this.className = 'selected';
-            this.onmouseout = function(){
+            this.onclick = function(){
                 this.className = 'us';
             };
         }
